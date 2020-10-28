@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
 }
 
 body {
@@ -31,5 +33,89 @@ body {
 }
 
 #phone-instagram img {
-    width: 50rem;
+    width: 40rem;
 }
+
+#login-instagram {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+    margin-top: 5%;
+}
+
+.profile-photo img {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80%;
+    overflow: hidden;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    margin-bottom: 2rem;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.group p {
+    padding: 10px 0;
+}
+
+.logo {
+    height: 3rem;
+}
+
+.insta-login {
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px 40px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.link-blue {
+    color: #0095f6;
+    font-weight: 600;
+}
+
+.app-store {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.text-download {
+
+}
+
+.download-insta {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 11rem;
+    background-size: cover;
+}
+
+
