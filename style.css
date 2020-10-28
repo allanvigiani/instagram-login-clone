@@ -82,7 +82,7 @@ body {
 .insta-login {
     background-color: #0095f6;
     color: #ffffff;
-    padding: 8px 40px;
+    padding: 8px 20px;
     border-radius: 4px;
     font-weight: 600;
 }
@@ -114,8 +114,43 @@ body {
 
 .app-download {
     height: 3rem;
-    width: 11rem;
+    width: 10rem;
     background-size: cover;
 }
 
+/*Responsividade*/
+@media (max-width: 1024px) {
+    #container {
+        width: 90%;
+    }
+}
 
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    #container {
+        width: 90%;
+    }
+
+    #phone-instagram {
+        display: none;
+    }
+
+    #login-instagram {
+        width: 100%;
+    }
+
+    .group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 1.3rem 0;
+        margin-bottom: 2rem;
+        border: none;
+    }
+
+}
