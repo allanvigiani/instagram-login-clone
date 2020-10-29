@@ -12,7 +12,7 @@ instagram-login-clone é um clona da tela de login do Instragram desktop com res
 
 ## Sobre o projeto
 
-<a href="">Clique aqui</a> para ver o projeto.
+<a href="https://allanvigiani.github.io/instagram-login-clone/">Clique aqui</a> para ver o projeto.
 
 	
 ## Tecnologias
