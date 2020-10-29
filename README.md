@@ -1,7 +1,24 @@
+<div align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=brightgreen&style=for-the-badge"></div>
+<br>
+
 # instagram-login-clone
-<h2>
-Tela de Login do Instragram desktop com responsividade para dispositivos mobile.
-</h2>
+Um projeto de clonagem da tela de login do Instagram desktop com resposividade para dispositivos mobile.
+
+
+## Índice
+* [Sobre o projeto](#sobre-o-projeto)
+* [Tech](#tecnologias)
+
+## Sobre o projeto
+
+<a href="">Clique aqui</a> para conferir o resultado.
+	
+## Tecnologias
+
+- HTML5
+- CSS3
+
+## Screenshots
 
 ![Screenshot](img/img1.png)
 ![Screenshot](img/img2.png)
