@@ -19,6 +19,5 @@ Um projeto de clonagem da tela de login do Instagram desktop com resposividade p
 - CSS3
 
 ## Screenshots
-
-![Screenshot](img/img1.png)
-![Screenshot](img/img2.png)
+<p align="center"><img src="img/img1.png"></p>
+<p align="center"><img src="img/img2.png"></p>
