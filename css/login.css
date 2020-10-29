@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(253, 251, 251);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 50%;
+    height: 100vh;
+}
+
+#phone-instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+#phone-instagram img {
+    width: 46rem;
+}
+
+#login-instagram {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+    margin-top: 5%;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    margin-bottom: 1.5rem;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.group p {
+    padding: 10px 0;
+}
+
+.logo {
+    height: 3rem;
+    margin: 2rem 0;
+}
+
+.input-login {
+    width: 250px;
+    height: 40px;
+    font-size: 12px;
+    margin: 5px 0;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    background-color: rgba(230, 230, 230, 0.329);
+    text-indent: 5px;
+}
+
+.input-login:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.btn-entrar {
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #0095f6;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.vazio {
+    background-color: #dbdbdb;
+    border: 1px solid #dbdbdb;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*
+.texto-ou {
+    color: rgb(142, 142, 142);
+    font-size: 14px;
+    font-weight: 600;
+}
+*/
+
+.texto-ou {
+    color: rgb(142, 142, 142);
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 8px;
+  }
+  .texto-ou::before,
+  .texto-ou::after {
+    content: "";
+    position: absolute;
+    top: 0.65em;
+    width: 5em;
+    height: 0.05em;
+    background-color:rgb(142, 142, 142);
+    left: -6.25em;
+  }
+  .texto-ou::after {
+    left: initial;
+    right: -6.25em;
+  }
+
+#div-ou {
+    margin: 10px 0 30px 0;
+}
+
+.login-face {
+    color: #385594;
+    font-size: 16px;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.face-logo {
+    width: 16px;
+    vertical-align: middle;
+}
+
+#div-login-face {
+    margin-bottom: 20px;
+}
+
+.forget-pass {
+    font-size: 12px;
+    color: black;
+    
+}
+
+.link-blue {
+    color: #0095f6;
+    font-weight: 600;
+}
+
+.app-store {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.download-insta {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+/*Responsividade*/
+@media (max-width: 1024px) {
+    #container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    #container {
+        width: 90%;
+    }
+
+    #phone-instagram {
+        display: none;
+    }
+
+    #login-instagram {
+        width: 100%;
+    }
+
+    .group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 1.3rem 0;
+        margin-bottom: 2rem;
+        border: none;
+    }
+
+}
