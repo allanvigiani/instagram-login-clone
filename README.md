@@ -1,5 +1,5 @@
 
-<div align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM-PROGRESSO&color=brightgreen&style=for-the-badge"></div>
+<div align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM-PROGRESSO&color=red&style=for-the-badge"></div>
 <br>
 
 # instagram-login-clone
