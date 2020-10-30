@@ -1,5 +1,5 @@
 
-<div align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=brightgreen&style=for-the-badge"></div>
+<div align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=green&style=for-the-badge"></div>
 <br>
 
 # instagram-login-clone
@@ -22,3 +22,5 @@ instagram-login-clone é um clona da tela de login do Instragram desktop com res
 ## Screenshots
 <p align="center"><img src="img/img1.png"></p>
 <p align="center"><img src="img/img2.png"></p>
+<p align="center"><img src="img/img3.png"></p>
+<p align="center"><img src="img/img4.png"></p>
